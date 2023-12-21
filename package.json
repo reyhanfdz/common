@@ -23,6 +23,7 @@
     "packages/*"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "polkadot-dev-build-ts",
     "build:networks": "polkadot-dev-run-test packages/networks/src",
     "build:release": "polkadot-ci-ghact-build",
